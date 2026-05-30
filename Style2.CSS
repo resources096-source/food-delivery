@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    background-color: rgb(26, 78, 49);
+    text-align: center;
+    color: whitesmoke; 
+    padding: 25px;  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 68);
+    font-size: 25px;
+    padding: 20px 10px;
+   
+}
+.options ul li{
+    display: inline;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+.another{
+    border: 1px solid black;
+    height: 400px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    background-color: lightblue;
+    
+    
+}

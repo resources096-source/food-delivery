@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbox{
+    background: linear-gradient(90deg,#000428,#004e92);
+    color: whitesmoke;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.navbox ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;       
+}
+.navbox a{
+    color: white;
+    text-decoration: none; 
+    font-weight: 900;
+    font-size: 21px;
+    transition-duration: 1s;
+    transition-property: all;
+
+}
+a:hover{
+    color: rgb(255, 200, 2);
+    text-decoration: underline;
+}
+.login button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(235, 204, 32);
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+}
+.login button:hover{
+    background-color: white;
+}
+.box{
+    background: linear-gradient(90deg,#030f77,#0088ff);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 15px;
+}
+.box div{
+    width: 500px;
+}
+.box div button{
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+.box2{
+    background-color: rgb(224, 204, 180);
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+}
+.box3{
+    background-color: rgb(116, 128, 124);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+}
+.box4{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    height: 100px;
+    width: 300px;
+    font-size: larger;
+}
+.box5{
+    padding: 10px 12px;
+    background-color: rgb(17, 17, 72);
+    color: white;
+    height: 10vh;
+}
+.parent{
+    border: 3px solid black;
+    height: 300px;
+    width: 1500px;
+    display: flex;
+}
+.box6{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+.child1{
+    background-color: cadetblue;
+    flex-grow: 7;
+}
+.child2{
+    background-color: rgb(157, 51, 56);
+    flex-grow: 1.5;
+}
+.child3{
+    background-color: rgb(204, 201, 116);
+    align-self: flex-end;
+}

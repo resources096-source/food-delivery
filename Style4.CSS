@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f2f2f2;
+}
+.header{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    padding: 15px 25px;
+    height: 5vh; 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul a{
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 0.5s;
+}
+ul li{
+     transition: 1s;
+}
+ul li:hover{   
+    transform: scale(1.2);
+}
+ul a:hover{
+    color: rgb(234, 220, 33);
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.hero{
+    background-color: rgb(106, 194, 223);
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.hero h1:hover{
+    color: rgba(246, 12, 203, 0.555);
+    transform: translatey(-10px);
+    transition: 2s;
+}
+.parent{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.child{
+    border: 2px solid rgb(227, 252, 252);
+    background-color: azure;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.child:hover{
+    background-color: black;
+    color: whitesmoke;
+    transform: translatey(-15px) scale(1.05);
+
+}
+div button{
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(123, 158, 230);
+    padding: 5px;
+    border-radius: 10px;
+}
+div button:hover{
+    background-color: rgb(211, 211, 43);
+}
+footer{
+    height: 10vh;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   

@@ -1,0 +1,73 @@
+.parent{
+    border: 3px solid black;
+    height: 700px;
+    width: 800px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center ;
+    flex-wrap: wrap;
+    background-color: rgb(148, 152, 150);
+   
+}
+.class1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(186, 64, 64);
+}
+.class2{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(36, 36, 113);
+}
+.class3{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+     background-color: rgb(117, 22, 84);
+}
+.class4{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+     background-color: rgb(29, 68, 19);
+}
+.class5{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+     background-color: rgb(184, 166, 29);
+}
+.Quotes{
+    border: 3px solid black;
+    height: 800px;
+    width: 1500px;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+.child1{
+    border: 2px solid black;
+    height: 150px;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(161, 161, 224);
+}
+.child2{
+    border: 2px solid black;
+    height: 150px;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(151, 96, 151);
+}
+.child3{
+    border: 2px solid black;
+    height: 150px;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(125, 190, 190);
+}

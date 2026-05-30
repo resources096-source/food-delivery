@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #0f172a; 
+}
+.header{
+    background-color: rgb(15, 14, 14);
+    color: rgb(70, 240, 240);
+    padding: 15px 25px;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1:hover{
+    rotate: -8deg;
+    transition-duration: 0.8s;
+}
+.header ul{
+    list-style: none;   
+    display: flex;
+    gap: 20px;
+}
+.header ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;   
+}
+ul a:hover{
+    color: aquamarine;
+}
+ul li:hover{   
+    transform: translateY(-10px) scale(1.05);
+    transition: 0.5s; 
+}
+.hero{
+    color: whitesmoke;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin: 10px 40px;
+}    
+.content{
+    width: 30vw;
+}
+.content button{
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(164, 235, 235);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 400px;
+}
+.content button:hover{
+    background-color: lightgoldenrodyellow;
+}
+.hero h1{
+    font-size: 50px;    
+}
+.hero p{
+    font-size: 20px;
+}
+
+.hero .img{
+    animation: move 2s ease-in-out infinite alternate;
+    height: 250px;
+    width: 400px;
+}
+@keyframes move {
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.Places{    
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.beautiful{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;   
+    height: 300px; 
+    width: 300px;
+}
+.beautiful img{
+    border-radius: 25px;
+    padding: 15px;   
+}
+.beautiful:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+footer{
+    margin-top: 20px;
+    background-color: rgb(39, 35, 35);
+    color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+

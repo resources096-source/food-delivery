@@ -1,0 +1,52 @@
+a:link{
+    color: brown;
+}
+a:visited{
+    color: rgb(89, 216, 26);
+}
+a:active{
+    color: aqua;
+}
+a:hover{
+    color: rgb(51, 51, 107);
+}
+a{
+    cursor: pointer;
+}
+#absolute{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(37, 34, 34);
+    color: whitesmoke;
+    box-shadow: 25px 30px 25px 15px rgb(242, 201, 148);
+}
+.image1{
+    margin: 10px;
+    margin-top: 50px;
+    filter: blur(0.3px),contrast(100%),brightness(60%),drop-shadow(10%);
+    filter: grayscale(2%);
+    filter: invert(6%);
+    filter: opacity(95%);
+    filter: saturate(100%);
+    filter: sepia(35%);
+}
+#Gradiants{
+    border: 2px solid black;
+    height: 250px;
+    background-image: linear-gradient(rgb(219, 9, 9),rgb(96, 25, 25),black);   
+}
+#style{
+    border: 2px solid black;
+    height: 250px;
+    background-image: radial-gradient( rgb(184, 144, 70),rgb(122, 47, 47),rgb(33, 33, 66) );
+}
+.name{
+    text-decoration: none;
+}
+.image2{
+    filter: contrast(100%);
+    filter: blur(0.7px);
+
+}
